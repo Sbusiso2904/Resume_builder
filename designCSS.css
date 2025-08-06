@@ -1,6 +1,6 @@
 .TopNav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10 px 3%;
 }
@@ -13,35 +13,37 @@
     margin-left: 10px;
 }
 
-.split{
+/* .split{
     height: 100%;
     width: 50;
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
     padding-top: 20px;
-}
+} */
 
 /*Control the left side*/
-.left{
+.split-left{
     left: 0;
     background-color: #111;
+    border: red;
+
 }
 
 /*Control the left side*/
-.right{
+/* .right{
     right: 0;
     background-color: red;
 
-}
-
+} */
+/* 
 .centered{
     position: absolute;
     top: 50%;
     left: 50;
     transform: translate(-50%, -50%);
     text-align: center;
-}
+} */
 
 body {
   background-color: lightblue !important;
