@@ -1,11 +1,14 @@
 import React from "react";
 import './designCSS.css';
+import Card from "./card";
 
 
 function App() {
     return(
+
+        
         <div>
-            <h1>Rusume Builder SA</h1>
+            <h1>Resume Builder SA</h1>
 
             <nav className="TopNav">
                 <a href="#Signin">Sign in</a>
@@ -28,7 +31,12 @@ function App() {
                 </div>
             </div>
 
+            <Card></Card>
+
         </div>
+
+
+        
     );
 }
 
